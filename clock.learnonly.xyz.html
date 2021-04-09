@@ -1,0 +1,46 @@
+
+<!-- saved from url=(0028)https://clock.learnonly.xyz/ -->
+<html><style lang="en" type="text/css" id="night-mode-pro-style">html {background-color: #FFFFFF !important;} body {background-color: #FFFFFF;}</style><link type="text/css" rel="stylesheet" id="night-mode-pro-link"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="./clock.learnonly.xyz_files/flipclock.css">
+		<link rel="stylesheet" href="./clock.learnonly.xyz_files/style.css">
+
+		<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+
+		<script src="./clock.learnonly.xyz_files/jquery.min.js.下载"></script>		
+		<script src="./clock.learnonly.xyz_files/flipclock.js.下载"></script>		
+	</head><remove-web-limits-iqxin id="rwl-iqxin" class="rwl-exempt" style="position: fixed; top: 0px; left: 0px;"><qxinbutton type="qxinbutton" id="rwl-setbtn"> set </qxinbutton> <lalala style="cursor:move; font-size:12px;">限制解除</lalala> <input type="checkbox" name="" id="black_node"><style type="text/css">#rwl-iqxin{position:fixed;transform:translate(-95px,0);width:85px;height:25px;font-size:12px;font-weight: 500;font-family:Verdana, Arial, '宋体';color:#fff;background:#333;z-index:2147483647;margin: 0;opacity:0.05;transition:0.3s;overflow:hidden;user-select:none;text-align:center;white-space:nowrap;line-height:25px;padding:0 16px;border:1px solid #ccc;border-width:1px 1px 1px 0;border-bottom-right-radius:5px;box-sizing: content-box;}#rwl-iqxin input{margin: 0;padding: 0;vertical-align:middle;-webkit-appearance:checkbox;-moz-appearance:checkbox;position: static;clip: auto;opacity: 1;cursor: pointer;}#rwl-iqxin.rwl-active-iqxin{left: 0px;transform:translate(0,0);opacity: 0.9;height: 32px;line-height: 32px}#rwl-iqxin label{margin:0;padding:0;font-weight:500;}#rwl-iqxin #rwl-setbtn{margin: 0 4px 0 0;padding: 0 0 0 4px;border: none;border-radius: 2px;cursor: pointer;background: #fff;color: #000;} </style></remove-web-limits-iqxin>
+	<body style="">
+
+		<div id="box">
+			<div id="content">
+				<div class="clock flip-clock-wrapper" id="flipclock"><span class="flip-clock-divider "><span class="flip-clock-label"></span><span class="flip-clock-dot top"></span><span class="flip-clock-dot bottom"></span></span><ul class="flip "><li class="flip-clock-before"><a href="https://clock.learnonly.xyz/#"><div class="up"><div class="shadow"></div><div class="inn">9</div></div><div class="down"><div class="shadow"></div><div class="inn">9</div></div></a></li><li class="flip-clock-active"><a href="https://clock.learnonly.xyz/#"><div class="up"><div class="shadow"></div><div class="inn">0</div></div><div class="down"><div class="shadow"></div><div class="inn">0</div></div></a></li></ul><ul class="flip "><li class="flip-clock-before"><a href="https://clock.learnonly.xyz/#"><div class="up"><div class="shadow"></div><div class="inn">8</div></div><div class="down"><div class="shadow"></div><div class="inn">8</div></div></a></li><li class="flip-clock-active"><a href="https://clock.learnonly.xyz/#"><div class="up"><div class="shadow"></div><div class="inn">9</div></div><div class="down"><div class="shadow"></div><div class="inn">9</div></div></a></li></ul><span class="flip-clock-divider "><span class="flip-clock-label"></span><span class="flip-clock-dot top"></span><span class="flip-clock-dot bottom"></span></span><ul class="flip  play"><li class="flip-clock-before"><a href="https://clock.learnonly.xyz/#"><div class="up"><div class="shadow"></div><div class="inn">1</div></div><div class="down"><div class="shadow"></div><div class="inn">1</div></div></a></li><li class="flip-clock-active"><a href="https://clock.learnonly.xyz/#"><div class="up"><div class="shadow"></div><div class="inn">2</div></div><div class="down"><div class="shadow"></div><div class="inn">2</div></div></a></li></ul><ul class="flip  play"><li class="flip-clock-before"><a href="https://clock.learnonly.xyz/#"><div class="up"><div class="shadow"></div><div class="inn">2</div></div><div class="down"><div class="shadow"></div><div class="inn">2</div></div></a></li><li class="flip-clock-active"><a href="https://clock.learnonly.xyz/#"><div class="up"><div class="shadow"></div><div class="inn">3</div></div><div class="down"><div class="shadow"></div><div class="inn">3</div></div></a></li></ul><ul class="flip-clock-meridium"><li><a href="https://clock.learnonly.xyz/#">AM</a></li></ul></div>
+				<h1 class="date" id="ShowDate">2021年4月9日 星期五</h1>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			// mobile
+			if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+				document.getElementById('flipclock').setAttribute("style","zoom:1.5;");
+    			document.getElementById('ShowDate').setAttribute("style","zoom:1.5;");
+    		}
+
+			var clock;
+			
+			$(document).ready(function() {
+				clock = $('.clock').FlipClock({
+					clockFace: 'TwelveHourClock',
+					showSeconds: false
+				});
+			});
+
+
+			var d = new Date();
+			document.getElementById('ShowDate').innerHTML = d.getFullYear() + "年" +(d.getMonth() + 1) + "月" + d.getDate() + "日" + ' 星期'+'日一二三四五六'.charAt(new Date().getDay());
+		</script>
+
+	
+</body></html>
